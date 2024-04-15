@@ -1,0 +1,51 @@
+body {
+    background-color: grey;
+}
+.form {
+    width: fit-content;
+}
+.form,.gastenboek {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.gastenboek {
+    padding: 0.3em;
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container {
+    margin: 1em;
+    background-color: lightgrey;
+    border-radius: 1em;
+    /*border: 1px solid black;*/
+    padding: 1em;
+    display: inline-flex;
+    flex-direction: column;
+    width: 20%;
+    height: fit-content;
+    align-self: baseline;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: info;
+}
+
+
+.message {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    grid-area: message;
+    width: 95%;
+}
+.datetime h5 {
+    position: relative;
+    top: 25%;
+    transform: translateY(-50%);
+}
